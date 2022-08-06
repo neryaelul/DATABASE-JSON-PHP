@@ -1,9 +1,11 @@
 # Database-JSON-PHP
   Simple Class for Use JSON File as Database with PHP     Function like Add,Get,Update and Remove
     
+    
+    Ex Add Get Line
    <?php
 
-    //Ex Add Get Line
+  
     
     
         // We get the DBJsonCon.php file 
@@ -19,9 +21,9 @@
             print_r($QGet);
         } 
     
-  
-      //Ex Add New Line
-    
+    ?>
+     Ex Add New Line
+    <?php
      
     
             // We get the DBJsonCon.php file 
