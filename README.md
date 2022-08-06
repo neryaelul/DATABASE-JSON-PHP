@@ -3,6 +3,7 @@
     Ex Add New Line
     
     Ex Add Get Line
+    
     <?php
         // We get the DBJsonCon.php file 
         $docRoot = $_SERVER['DOCUMENT_ROOT'];
@@ -18,12 +19,9 @@
         } 
     ?>
   
-  
-  
-    Ex Add New Line
+      Ex Add New Line
     
-    
-    <?php
+      <?php
     
             // We get the DBJsonCon.php file 
             $docRoot = $_SERVER['DOCUMENT_ROOT'];
@@ -40,4 +38,4 @@
             ',"Customers");
 
             echo $q;
-    ?>        
+     ?>        
