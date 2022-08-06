@@ -49,14 +49,14 @@
         echo $QUpdate; 
     ?>    
  ## Remove
-     <?php
+    <?php
         // We get the DBJsonCon.php file 
         $docRoot = $_SERVER['DOCUMENT_ROOT'];
         $DBJsonCon = $docRoot . '/config/DBJsonCon.php';
         require_once $DBJsonCon;
 
-        // Update By Column
-        //  $QUpdate = $DBJ->update(Value,Column,NewValue,Group);
-        $QUpdate = $DBJ->update("email@ex.com","Email","newemail@ex.com","Customers");
-        echo $QUpdate; 
-    ?> 
+        // Delete By Column
+        //  $QRemove = $DBJ->removeLine(Value,Column,Group);
+        $QRemove = $DBJ->removeLine("email@ex.com","Email","Customers");
+        echo $QRemove;
+    ?>
