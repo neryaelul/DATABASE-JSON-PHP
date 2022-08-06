@@ -1,0 +1,9 @@
+{
+	"Customers":[
+		{
+			"Name":"Max Fee",
+			"Email": "email@ex.com",
+			"City": "New York"
+		}	
+	]	
+}
