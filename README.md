@@ -2,6 +2,7 @@
   Simple Class for Use JSON File as Database with PHP     Function like Add,Get,Update and Remove
     
    <?php
+
     //Ex Add Get Line
     
     
