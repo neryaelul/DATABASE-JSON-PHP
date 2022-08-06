@@ -1,10 +1,10 @@
 # Database-JSON-PHP
   Simple Class for Use JSON File as Database with PHP     Function like Add,Get,Update and Remove
-    Ex Add New Line
     
-    Ex Add Get Line
+   <?php
+    //Ex Add Get Line
     
-    <?php
+    
         // We get the DBJsonCon.php file 
         $docRoot = $_SERVER['DOCUMENT_ROOT'];
         $DBJsonCon = $docRoot . '/config/DBJsonCon.php';
@@ -17,11 +17,11 @@
         if($QGet != 0){
             print_r($QGet);
         } 
-    ?>
-  
-      Ex Add New Line
     
-      <?php
+  
+      //Ex Add New Line
+    
+     
     
             // We get the DBJsonCon.php file 
             $docRoot = $_SERVER['DOCUMENT_ROOT'];
