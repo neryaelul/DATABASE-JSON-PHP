@@ -1,6 +1,6 @@
 # Database-JSON-PHP
   Simple Class for Use JSON File as Database with PHP Function like Add,Get,Update and Remove.
-## We need Select our file in Config/DBJsonCon.php
+## We need Select our JSON File in Config/DBJsonCon.php
     <?php
         // We connect the config class file
         $docRoot = $_SERVER['DOCUMENT_ROOT'];
